@@ -1,10 +1,231 @@
-*{
-border: 1px solid black;
-/*font-family: "amandine", sans-serif;*/
+html {
+  --brown: #8f6d46;
+  --black: #000;
+  --gold: #ecd5ac;
+  --silver: #d9d9d9;
+  --white: #ffffff;
+  --gray: #eef0f2;
+  --lightgray: F2F4F5;
+  --buttonwhite: FEFEFE;
+  --green: #659c6e;
+  --red: D31C1C;
+  --dtitel: 3rem;
+  --dmenu: 2rem;
+  --dnews: 6rem;
+  --dmumber: 2.1875rem;
+  --dfmenu: 2.25rem;
+  --dfinfo: 1.875rem;
+  --dminititel: 8.75rem;
+  --dminititelinfo: 2rem;
+  --dfiler: 2rem;
+  --dproductinfo: 1.5rem;
+  --dmini: 1.25rem;
+  --dreco: 2.5rem;
+  --amandine: "amandine", sans-serif;
+  --dbold: 700;
+  --dregular: 500;
+  --dproductwidth: 19.6875rem;
+  --dproductheight: 21.0625rem;
+  --ddetailwidth: 44.0625rem;
+  --ddetailheight: 45.75rem;
+  --dcartwidth: 7.875rem;
+  --dcartheight: 8.0625rem;
+}
+* {
+  border: 0px solid;
+  background-color: var(--white);
 }
 
-footer, .fa-brands{
-    background-color: black;
-    color: #fff;
-    text-decoration: none;
+.title,
+h1 {
+  color: var(--black);
+  font-family: var(--amandine);
+  font-size: var(--dtitel);
+  font-style: normal;
+  font-weight: var(--dregular);
+  line-height: normal;
+  text-align: center;
 }
+.menu,
+.menu a {
+  color: var(--brown);
+  font-size: var(--dmenu);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.top-line {
+  height: 5px;
+  background-color: var(--brown);
+  height: 2.125rem;
+  width: 100%;
+}
+section.section {
+  text-align-last: center;
+}
+
+.fa-bars {
+  width: 2.1875rem;
+  height: 2.1875rem;
+  align-items: center;
+  float: left;
+  margin-left: 2rem;
+  flex-shrink: 0;
+}
+.fa-heart,
+.fa-cart-shopping,
+.fa-user {
+  width: 2.1875rem;
+  height: 2.1875rem;
+  align-items: center;
+  float: right;
+  flex-shrink: 0;
+}
+.fa-user {
+  margin-right: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer,
+footer a,
+footer ul,
+footer button,
+footer section {
+  background-color: var(--black);
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  padding-top: 2%;
+  margin-right: auto;
+  margin-left: auto;
+  clear: both;
+  padding-bottom: 0;
+}
+footer section {
+  margin-top: 1%;
+}
+footer p,
+footer .fa-brands,
+footer a,
+footer section {
+  color: white;
+  background-color: black;
+}
+.fa-brands:hover {
+  color: rgb(186, 186, 177);
+}
+.numberbtn {
+  background-color: var(--brown);
+  border-radius: 2.9375rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  width: 23.5rem;
+  height: 5.9375rem;
+  font-size: var(--dmumber);
+  font-weight: 400;
+  font-family: Arial;
+  line-height: normal;
+  font-style: normal;
+}
+
+.title-footer {
+  color: var(--white);
+  font-family: var(--amandine);
+  font-size: var(--dtitel);
+  font-style: normal;
+  font-weight: var(--dregular);
+  line-height: normal;
+  text-align: center;
+  margin-left: 4.5rem;
+}
+.numberbtn {
+  margin-left: 6rem;
+  margin-right: 59.25rem;
+  margin-top: 1%;
+  margin-right: auto;
+}
+.brands {
+  margin-left: 4.5rem;
+  font-size: xx-large;
+}
+footer ul a:first-child {
+  text-align: right;
+  font-family: Arial;
+  font-size: 2.25rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+}
+section.menu-info {
+  margin-left: auto;
+  margin-right: auto;
+  display: table-cell;
+  padding: 3rem;
+  padding-top: 0;
+}
+footer ul a:nth-child(2),
+footer ul a:nth-child(3),
+footer ul a:nth-child(4) {
+  font-family: Arial;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.menu-info ul {
+  padding: 0;
+  text-align: left;
+}
+
+.menu-info ul a {
+  display: block;
+  font-family: Arial;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1%;
+  margin-top: 5%;
+}
+main section {
+  background-color: var(--gray);
+  width: 100%;
+  height: 45.4375rem;
+  margin-bottom: 10%;
+}
+.news-font {
+  font-family: var(--amandine);
+  font-size: var(--dnews);
+  color: var(--black);
+  font-style: normal;
+  font-weight: var(--dregular);
+  background-color: var(--gray);
+  flex:1;
+  margin-bottom: 10px;
+}
+.seemore
+{
+  background-color: var(--gray);
+}
+main img {
+  background-color: var(--gray);
+  max-width: 100%;
+
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+}
+
