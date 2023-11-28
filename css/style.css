@@ -1,0 +1,10 @@
+*{
+border: 1px solid black;
+/*font-family: "amandine", sans-serif;*/
+}
+
+footer, .fa-brands{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+}
