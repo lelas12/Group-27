@@ -34,6 +34,7 @@ html {
 * {
   border: 0px solid;
   background-color: var(--white);
+  scroll-behavior: smooth;
 }
 
 .title,
@@ -275,6 +276,7 @@ main section img {
   text-align: center;
   min-height: 100vh;
   align-items: center;
+  background-color: transparent;
 }
 
 .news-container {
@@ -294,3 +296,113 @@ main section img {
     margin-top: 10px;
   }
 }
+
+
+.container-small{
+  height: 20.813rem;
+  width: 100%;
+ 
+}
+
+.gold-font{
+  position: relative; top: 4rem;
+  font-family: var(--amandine);
+  font-size: var(--dminititel);
+  color: var(--black);
+  font-style: normal;
+  font-weight: var(--dbold);
+  background-color: transparent;
+  text-align: center;
+}
+
+.gold-info{
+  position: relative; bottom: 4rem;
+  font-family: var(--amandine);
+  font-size: var(--dminititelinfo);
+  color: var(--brown);
+  font-style: normal;
+  font-weight: var(--dregular);
+  background-color: transparent;
+  text-align: center;
+}
+
+
+.productname{
+  font-family: var(--amandine);
+  font-size: var( --dproductinfo);
+  color: var(--brown);
+  font-style: normal;
+  font-weight: var(--dregular);
+  float: left;
+}
+
+.price{
+  font-family: var(--amandine);
+  font-size: var( --dproductinfo);
+  color: var(--black);
+  font-style: normal;
+  font-weight: var(--dregular);
+  text-align: left;
+}
+
+.jewelry-1{
+  width: 19rem;
+}
+
+.jewelry-2{
+  width: 19rem;
+}
+
+.jewelry-3{
+  width: 19rem;
+}
+
+.jewelry-4{
+  width: 19rem;
+}
+
+.jewelry-5{
+  width: 19rem;
+}
+
+.jewelry-6{
+  width: 19rem;
+}
+
+.jewelry-7{
+  width: 19rem;
+}
+
+.jewelry-8{
+  width: 19rem;
+  
+}
+.jewelry-9{
+  width: 19rem;
+}
+
+.jewelry-10{
+  width: 19rem;
+}
+
+.jewelry-11{
+  width: 19rem;
+}
+
+.jewelry-12{
+  width: 19rem;
+  
+}
+
+
+.add{
+  background-color: var(--brown);
+  border-radius: 1.25rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: arial;
+  font-size: var(--dfinfo);
+  text-decoration: none;
+  color: var(--white);
+  float: right;
+}
+
