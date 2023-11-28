@@ -77,6 +77,10 @@ section.section {
   margin-left: 2rem;
   flex-shrink: 0;
 }
+.fa-solid{
+  color: black;
+  
+}
 .fa-heart,
 .fa-cart-shopping,
 .fa-user {
