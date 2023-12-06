@@ -7,6 +7,8 @@
       src="https://kit.fontawesome.com/c062a61898.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/main.js" defer></script>
+
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,16 +29,59 @@
           <a href="#">News</a>
           <a href="#">All Jewlery</a>
           <a href="#">Sale</a>
-          <a href="#">Collections</a>
+          <a href="product.html">Collections</a>
         </section>
         <a href="#"><i class="fa-solid fa-user"></i></a> 
-        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="cart1.html"><i class="fa-solid fa-cart-shopping"></i></a>
         <a href=""> <i class="fa-solid fa-heart"></i></a>
       </section>
     </header>
 
-    <main>
-   
+    <main> 
+    <section class="coll"><p> Collections/Gold/Black and gold earrings</p>
+      <div class="contain center">
+    
+     <section class="right">
+       <section>
+        <img id="main-img" class="main-img" src="./img/Skärmbild 2023-11-06 203540.png" alt="earrings">
+        <section class="option center">
+          <img  src="./img/Skärmbild 2023-11-06 203540.png" onclick="changeImage('./img/Skärmbild 2023-11-06 203540.png')">
+          <img src="./img/Skärmbild 2023-11-06 203530.png" onclick="changeImage('./img/Skärmbild 2023-11-06 203530.png')">
+          <img src="./img/Skärmbild 2023-11-06 203547.png" onclick="changeImage('./img/Skärmbild 2023-11-06 203547.png')">          
+      </section>
+       <section class="add-btn2">
+      <p>Add to cart</p>
+       </section>
+       </section>
+      </section>
+     <section class="left">
+      <p class="product-title">Black and gold earrings <br><b>299 kr</b></p>
+      <section class="color center">
+        <span></span>
+        <span></span>
+      </section>
+      <section class="info">
+        <p>More information<i class="fa-solid fa-chevron-down"></i></p>
+      </section>
+      <section class="info">
+        <p>Description<i class="fa-solid fa-chevron-down"></i></p>
+      </section>
+      <p class="shipping">Free shipping over 500 kr <br>
+        Fast delivery 2-5 days<br>
+        Free return in store</p>
+        <section class="add-btn">
+        <a href="cart.html"> Add to cart</a> 
+           </section>
+     </section>
+     
+    </section> 
+   </div>
+    <section>
+      <p> From the same collection</p>
+    </section>
+    <section class="btn">
+      <button  onclick="getUp()"><i class="fa-solid fa-arrow-up"></i></button>
+    </section>
     </main>
 
     <footer>
