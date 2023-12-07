@@ -7,83 +7,98 @@
       src="https://kit.fontawesome.com/c062a61898.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/main.js" defer></script>
+
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://use.typekit.net/jmd8cpo.css" />
     <title>Jewlery of Sweden</title>
   </head>
+
   <body>
     <header>
       <div class="top-line"></div>
       <section>
         <h1><a class="title" href="index.html">Jewelry of Sweden</a></h1>
       </section>
-      <section class="section">
-        <div class="menu-dropdown">
-          <button class="dropdown"><i class="fa-solid fa-bars"></i></button> 
-          <div class="menu-content">
-           <a href="#">News</a>
-           <a href="#">Popular</a>
-           <a href="#">Rings</a>
-           <a href="#">Bracelets</a>
-           <a href="#">Necklaces</a>
-           <a href="#">Silver</a>
-           <a href="secondpage.html">Gold</a>
-           <a href="#">Sale</a>
-          </div>
-       </div>
 
-        <a href="#"> <section class="menu menu-name"></a>
-          <a href="detail.html">News</a>
+      <section class="section">
+        <i class="fa-solid fa-bars"></i>
+        <section class="menu menu-name">
+          <a href="#">News</a>
           <a href="#">All Jewlery</a>
           <a href="#">Sale</a>
           <a href="product.html">Collections</a>
         </section>
-<<<<<<< HEAD
         <a href="#"><i class="fa-solid fa-user"></i></a> 
         <a href="cart1.html"><i class="fa-solid fa-cart-shopping"></i></a>
-=======
-        <a href="login.html"><i class="fa-solid fa-user"></i></a> 
-        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
->>>>>>> 86983e860afd91912f63c5711e93072a80f6648f
         <a href=""> <i class="fa-solid fa-heart"></i></a>
-        </section>
-    </header>
-    <main class="news">
-      <br><br>
-      <section class="container">
-        <section class="news-container">
-         <p class="news-font">Advent <br> calender is<br> here!</p>
-         <a class="seemore" href="#">Se more</a>
-        </section>
-        <img class="pic-news" src="./img/rectangle-1.png" alt="calender">
       </section>
-        <section class="container"> 
-        <img class="pic-news" src="./img/rectangle-2.png" alt="girl">
-        <section class="news-container">
-        <p class="news-font2">Winter is Back!</p>
-        <a class="seemore2" href="#">Se more</a>
-        </section>
+    </header>
 
-        </section>
+    <main> 
+    <section class="coll"><p> Collections/Gold/Black and gold earrings</p>
+      <div class="contain center">
+    
+     <section class="right">
+       <section>
+        <img id="main-img" class="main-img" src="./img/Skärmbild 2023-11-06 203540.png" alt="earrings">
+        <section class="option center">
+          <img  src="./img/Skärmbild 2023-11-06 203540.png" onclick="changeImage('./img/Skärmbild 2023-11-06 203540.png')">
+          <img src="./img/Skärmbild 2023-11-06 203530.png" onclick="changeImage('./img/Skärmbild 2023-11-06 203530.png')">
+          <img src="./img/Skärmbild 2023-11-06 203547.png" onclick="changeImage('./img/Skärmbild 2023-11-06 203547.png')">          
+      </section>
+       <section class="add-btn2">
+      <p>Add to cart</p>
+       </section>
+       </section>
+      </section>
+     <section class="left">
+      <p class="product-title">Black and gold earrings <br><b>299 kr</b></p>
+      <section class="color center">
+        <span></span>
+        <span></span>
+      </section>
+      <section class="info">
+        <p>More information<i class="fa-solid fa-chevron-down"></i></p>
+      </section>
+      <section class="info">
+        <p>Description<i class="fa-solid fa-chevron-down"></i></p>
+      </section>
+      <p class="shipping">Free shipping over 500 kr <br>
+        Fast delivery 2-5 days<br>
+        Free return in store</p>
+        <section class="add-btn">
+        <a href="cart.html"> Add to cart</a> 
+           </section>
+     </section>
+     
+    </section> 
+   </div>
+    <section>
+      <p> From the same collection</p>
+    </section>
+    <section class="btn">
+      <button  onclick="getUp()"><i class="fa-solid fa-arrow-up"></i></button>
+    </section>
     </main>
 
-    <footer> 
+    <footer>
       <section class="menu-info">
           <a class="title-footer" href="index.html">Jewlery of Sweden</a><br>
           <button class="numberbtn">Become a member</button>
-       </section>
+</section>
         <section class="menu-info">
           <ul>
-            <a href="#">CONTACT US</a><i class="fa-solid fa-chevron-down"></i>
+            <a href="#">CONTACT US</a>
             <a href="#">Contact form</a>
             <a href="#">Email</a>
           </ul>
         </section>
         <section class="menu-info">
           <ul>
-            <a href="#">ABOUT US</a><i class="fa-solid fa-chevron-down"></i>
+            <a href="#">ABOUT US</a>
             <a href="#">Our stores</a>
             <a href="#">Sustainility</a>
             <a href="#">Work with us</a>
@@ -91,17 +106,16 @@
         </section>
         <section class="menu-info">
           <ul>
-            <a href="#">HELP</a><i class="fa-solid fa-chevron-down"></i>
+            <a href="#">HELP</a>
             <a href="#">Frequently asked questions</a>
             <a href="#">Costumer service</a>
           </ul>
         </section>
+
         <section class="brands">
-          
           <a href="#"><i class="fa-brands fa-facebook"></i></a>
           <a href="#"><i class="fa-brands fa-instagram"></i></a>
           <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-          
         </section>
       </section>
     </footer>
