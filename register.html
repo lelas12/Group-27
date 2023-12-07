@@ -50,20 +50,27 @@
     <main>
    
      <div class="login">
-    <form action="">
-        <h1>Login</h1>
+    <form class="register-form" action="">
+        <h1>Register</h1>
         <div class="input-box">
-            <input type="text" placeholder="Username" required>
+            <input type="text" placeholder="Full name" required>
+        </div>
+        <div class="input-box">
+            <input type="text" placeholder="Email" required>
         </div>
         <div class="input-box">
             <input type="password" placeholder="Password" required>
         </div>
-        <div class="forgot">
-           <a href="#">Forgot your password?</a>
-        </div>
-        <button type="submit" class="login-btn">Login</button>
+        <label for="gender">Choose gender:</label>
+      <select id="gender" name="gender">
+      <option value="male">Man</option>
+      <option value="female">Women</option>
+      <option value="other">Other</option>
+      </select>
+
+        <button type="submit" class="login-btn">Register</button>
         <div class="register">
-            <p>Are you new? <a href="register.html">Register here</a></p>
+             <p class="log-btn">Already have an account? <a class="log-btn" href="login.html">Login</a></p>
         </div>
     </form>
    </div>  
