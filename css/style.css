@@ -83,12 +83,9 @@ section.section {
 }
 .fa-solid {
   color: black;
-<<<<<<< HEAD
 }
 .fa-solid:hover {
   color: rgb(186, 186, 177);
-=======
->>>>>>> 86983e860afd91912f63c5711e93072a80f6648f
 }
 .fa-heart,
 .fa-cart-shopping,
@@ -253,8 +250,6 @@ footer ul a:nth-child(4) {
   margin-right: 40%;
 
   padding: 2%;
-
-
 }
 
 .seemore2 {
@@ -300,8 +295,6 @@ i.fa-chevron-down {
   align-items: center;
 <<<<<<< HEAD
 }*/
-
-
 
 .news-container {
   flex: 1;
@@ -508,10 +501,17 @@ i.fa-chevron-down {
   margin: 2%;
 }
 .coll p {
-  margin-left: 10%;
+  margin-left: 2%;
 }
-i.fa-chevron{
+i.fa-chevron {
   display: none;
+}
+.from-col p{
+  font-family: Amandine;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 500;
+text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -756,8 +756,32 @@ i.fa-chevron{
     display: grid;
     justify-content: space-around;
   }
-
-
+  .products img {
+    width: 10.62975rem;
+    height: 12.33806rem;
+  }
+  .productname,
+  .add {
+    font-size: 0.9375rem;
+  }
+  .sort-btn a {
+    font-size: 0.875rem;
+  }
+  .gold-font p{
+    font-size: 2rem;
+  }
+  .gold-info p {
+    margin-top: 40%;
+    font-size: 0.9375rem;
+  }
+  .add {
+    width: 2.9375rem;
+    height: 1.875rem;
+  }
+  .from-col p{
+    font-size: 1rem;
+  }
+ 
 }
 
 @media screen and (max-width: 511px) {
@@ -827,7 +851,9 @@ i.fa-chevron{
   background-color: transparent;
   text-align: center;
 }
-
+.container-small p{
+  background-color: var(--gray);
+}
 .gold-info {
   position: relative;
   bottom: 4rem;
@@ -840,14 +866,29 @@ i.fa-chevron{
   text-align: center;
 }
 
+.products img {
+  max-width: 100%;
+  height: auto;
+}
 .products {
+<<<<<<< HEAD
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: transparent;
+  gap: 20px;
+=======
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   background-color: transparent;
   gap: 5rem 0.6rem;
   padding-top: 7rem;
+>>>>>>> 38a834d749a8342dbcf641bfee54e1262f4cb899
 }
+
 
 .productname {
   font-family: var(--amandine);
@@ -857,13 +898,18 @@ i.fa-chevron{
   font-weight: var(--dregular);
   float: left;
 }
-
+.add p:hover{
+  background-color: var(--gray);
+}
 .price {
   font-family: var(--amandine);
   font-size: var(--dproductinfo);
   color: var(--black);
   font-style: normal;
   font-weight: var(--dregular);
+<<<<<<< HEAD
+  padding-right: 58%;
+=======
   text-align: left;
 }
 
@@ -937,6 +983,7 @@ i.fa-chevron{
   width: var(--dproductwidth);
   height: 23rem;
   border-radius: 1.25rem;
+>>>>>>> 38a834d749a8342dbcf641bfee54e1262f4cb899
 }
 
 .add {
@@ -958,14 +1005,9 @@ i.fa-chevron{
   font-family: var(--amandine);
   font-size: var(--dfiler);
   font-weight: var(--dregular);
-  width: 8.2rem;
-  height: 3.5rem;
-  flex-shrink: 1; /*???*/
-  float: right;
-  margin-bottom: 6.25rem;
-  margin-right: 2rem;
-}
 
+  padding: 1%;
+}
 .sortby {
   background-color: var(--gray);
   color: #000;
@@ -973,6 +1015,8 @@ i.fa-chevron{
   font-family: var(--amandine);
   font-size: var(--dfiler);
   font-weight: var(--dregular);
+<<<<<<< HEAD
+=======
   width: 8.2rem;
   height: 3.5rem;
   flex-shrink: 1; /*???*/
@@ -980,7 +1024,14 @@ i.fa-chevron{
   margin-bottom: 6.25rem;
   margin-right: 2.5rem;
 }
+>>>>>>> 38a834d749a8342dbcf641bfee54e1262f4cb899
 
+  padding: 1%;
+}
+.sort-btn {
+  padding: 5%;
+  align-items: center;
+}
 /*@media (max-width: 400px){
   .gold-font{
     font-size: 
