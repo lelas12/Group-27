@@ -836,7 +836,7 @@ text-align: center;
 
 .container-small {
   flex: 1;
-  height: 20.813rem;
+  height: 20rem;
   width: 100%;
 }
 .gold-font {
@@ -870,6 +870,7 @@ text-align: center;
   height: auto;
 }
 .products {
+<<<<<<< HEAD
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   flex-wrap: wrap;
@@ -877,6 +878,14 @@ text-align: center;
   justify-content: space-evenly;
   background-color: transparent;
   gap: 20px;
+=======
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: transparent;
+  gap: 5rem 0.6rem;
+  padding-top: 7rem;
+>>>>>>> 38a834d749a8342dbcf641bfee54e1262f4cb899
 }
 
 
@@ -897,7 +906,83 @@ text-align: center;
   color: var(--black);
   font-style: normal;
   font-weight: var(--dregular);
+<<<<<<< HEAD
   padding-right: 58%;
+=======
+  text-align: left;
+}
+
+
+.jewelry-1 {
+  width: var(--dproductwidth);
+  height: 23rem;
+  border-radius: 1.25rem;
+}
+
+.jewelry-2 {
+  width: var(--dproductwidth);
+  height: 23rem;
+  border-radius: 1.25rem;
+}
+
+.jewelry-3 {
+  width: var(--dproductwidth);
+  height: 23rem;
+  border-radius: 1.25rem;
+}
+
+.jewelry-4 {
+  width: var(--dproductwidth);
+  height: 23rem;
+  border-radius: 1.25rem;
+}
+
+.jewelry-5 {
+  width: var(--dproductwidth);
+  height: 23rem;
+  border-radius: 1.25rem;
+}
+
+.jewelry-6 {
+  width: var(--dproductwidth);
+  height: 23rem;
+  border-radius: 1.25rem;
+}
+
+.jewelry-7 {
+  width: var(--dproductwidth);
+  height: 23rem;
+  border-radius: 1.25rem;
+}
+
+.jewelry-8 {
+  width: var(--dproductwidth);
+  height: 23rem;
+  border-radius: 1.25rem;
+}
+.jewelry-9 {
+  width: var(--dproductwidth);
+  height: 23rem;
+  border-radius: 1.25rem;
+}
+
+.jewelry-10 {
+  width: var(--dproductwidth);
+  height: 23rem;
+  border-radius: 1.25rem;
+}
+
+.jewelry-11 {
+  width: var(--dproductwidth);
+  height: 23rem;
+  border-radius: 1.25rem;
+}
+
+.jewelry-12 {
+  width: var(--dproductwidth);
+  height: 23rem;
+  border-radius: 1.25rem;
+>>>>>>> 38a834d749a8342dbcf641bfee54e1262f4cb899
 }
 
 .add {
@@ -929,6 +1014,16 @@ text-align: center;
   font-family: var(--amandine);
   font-size: var(--dfiler);
   font-weight: var(--dregular);
+<<<<<<< HEAD
+=======
+  width: 8.2rem;
+  height: 3.5rem;
+  flex-shrink: 1; /*???*/
+  float: right;
+  margin-bottom: 6.25rem;
+  margin-right: 2.5rem;
+}
+>>>>>>> 38a834d749a8342dbcf641bfee54e1262f4cb899
 
   padding: 1%;
 }
@@ -1038,3 +1133,99 @@ form {
   border-radius: 1.5rem;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
 }
+
+
+/*cart*/
+
+.container-small-cart{
+  flex: 1;
+  height: 20rem;
+  width: 100%;
+}
+
+.cart-title {
+  position: relative;
+  top: 4rem;
+  font-family: var(--amandine);
+  font-size: var(--dminititel);
+  color: var(--black);
+  font-style: normal;
+  font-weight: var(--dbold);
+  background-color: transparent;
+  text-align: center;
+  }
+
+  .discount {
+    position: relative;
+    bottom: 4rem;
+    font-family: var(--amandine);
+    font-size: var(--dminititelinfo);
+    color: var(--brown);
+    font-style: normal;
+    font-weight: var(--dregular);
+    background-color: transparent;
+    text-align: center;
+  }
+
+  .cart{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    margin-bottom: 0%;
+  }
+
+  .container-cart{
+    flex-shrink: 1;
+    background-color: var(--gray);
+    height: 39rem;
+    width: 55rem;
+    
+  }
+
+  .container-cart p,i{
+    background-color: transparent;
+  }
+
+  .container-cart div{
+    width: 7.9rem;
+    height: 8rem;
+    border-radius: 1.25rem;
+    border: 1px solid #000;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+
+  .earrings{
+    border-radius: 1.25rem;
+    width: 7.9rem;
+    height: 8rem;
+  }
+
+  .ring{
+    border-radius: 1.25rem;
+    width: 7.9rem;
+    height: 8rem;
+  }
+
+  hr{
+    border: 1px solid black; 
+  }
+
+  .discount-box{
+   display: flex;
+   width: 17.5rem;
+   height: 3.75rem;
+   margin-left: 15%;
+   background-color: transparent;
+  }
+  .discount-box input{
+    border: 1px solid black;
+  }
+
+  .discount-box-section{
+    display: inline;
+    background-color: transparent;
+  }
+
+ 
+  
