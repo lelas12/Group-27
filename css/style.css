@@ -814,6 +814,7 @@ i.fa-chevron{
   flex: 1;
   height: 20rem;
   width: 100%;
+  background-color: var(--gray);
 }
 .gold-font {
   position: relative;
@@ -1090,6 +1091,7 @@ form {
   flex: 1;
   height: 20rem;
   width: 100%;
+  background-color: var(--gray);
 }
 
 .cart-title {
