@@ -781,6 +781,62 @@ i.fa-chevron {
   .from-col p {
     font-size: 1rem;
   }
+  p.payment-info{
+    font-size: 15px;
+  }
+  p.payment-title{
+    font-size: 15px
+  }
+  p.input-title{
+    font-size: 14px;
+  }
+  p.input-title-small{
+    font-size: 14px;
+  }
+  p.payment-options{
+    font-size: 15px;
+  }
+  img.payment-options{
+    width: 1rem;
+    height: 0.5rem;
+  }
+  .input-payment{
+    width: 100%;
+  }
+  
+
+  p.cart-title {
+    font-size: 32px;
+  }
+ p.discount{
+  font-size: 15px;
+ }
+ p.earrings-cart{
+  font-size: 15px;
+
+ }
+ p.earrings-cart.price1{
+  font-size: 15px;
+
+ }
+ div.font-cost1 p, div.font-cost2 p, div.font-cost3 p{
+  font-size: 15px;
+ }
+
+ .delivery{
+  font-size: 24px;
+
+ }
+ p.next-btn, .delivery input{
+  font-size: 8px;
+ }
+ label.label{
+  font-size: 15px;
+ }
+  .to-pay button{
+  font-size: 16px;
+
+ }
 }
 
 @media screen and (max-width: 511px) {
@@ -863,6 +919,7 @@ i.fa-chevron {
   font-weight: var(--dregular);
   background-color: transparent;
   text-align: center;
+
 }
 
 .products {
@@ -995,7 +1052,7 @@ i.fa-chevron {
   text-shadow: 3px 3px 3px #0000005c;
 }
 
-input {
+.form-login input {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
   margin-left: 17%;
@@ -1039,19 +1096,14 @@ input {
   align-content: center;
   border-radius: 1.5rem;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+  padding-bottom: 3%;
 }
 
 /*register*/
 label {
   margin-left: 10%;
 }
-.register-form {
-  width: 20rem;
-  height: 23rem;
-  align-content: center;
-  border-radius: 1.5rem;
-  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
-}
+
 
 .log-btn {
   font-family: Arial, Helvetica, sans-serif;
@@ -1091,6 +1143,18 @@ label {
   text-align: center;
 }
 
+.container-cart{
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin-left: 2%;
+  box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 0.3rem;
+  padding: 10px 10px 10px 10px;
+}
+.container-cart input{
+  background-color: var(--gray);
+}
 .cart-sec section,
 .cart-sec div,
 .cart-sec p,
@@ -1338,6 +1402,9 @@ p.news-font {
   border-radius: 1.4rem;
   margin-bottom: 2%;
   margin-top: 1%;
+  margin-left: 2%;
+  box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.25);
+  padding: 10px 10px 10px 10px;
 }
 
 .credit-detail {
@@ -1353,10 +1420,13 @@ p.news-font {
 }
 
 .input-payment-small {
-  width: 25%;
+  width: 50%;
   height: 2rem;
   border-radius: 1.4rem;
   margin-top: 2%;
+  margin-left: 4%;
+  box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.25);
+  padding: 10px 10px 10px 10px;
 }
 
 .input-title-small {
