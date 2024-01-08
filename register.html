@@ -6,11 +6,13 @@
     <script
       src="https://kit.fontawesome.com/c062a61898.js"
       crossorigin="anonymous"
+
     ></script>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://use.typekit.net/jmd8cpo.css" />
+    <script defer src="js/main.js"></script>
     <title>Jewlery of Sweden</title>
   </head>
 
@@ -68,7 +70,12 @@
       <option value="other">Other</option>
       </select>
 
-        <button type="submit" class="login-btn">Register</button>
+        <button type="button" class="login-btn" onclick="openPopup()">Register</button>
+        <div class="popup" id="popup-box">
+          <h2>10% off</h2>
+          <p>Get an additional 10% off on your first order as a new member!</p>
+          <button type="button" onclick="closePopup()">Close</button>
+        </div>
         <div class="register">
              <p class="log-btn">Already have an account? <a class="log-btn" href="login.html">Login</a></p>
         </div>
