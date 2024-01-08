@@ -509,10 +509,8 @@ i.fa-chevron {
     margin-top: 2%;
   }
   .products {
-    grid-template-columns: repeat(
-      2,
-      1fr
-    ); /* Två kolumner med lika stor bredd */
+    grid-template-columns: repeat(2, 1fr
+    ); 
   }
   .news-container {
     width: 24.375rem;
