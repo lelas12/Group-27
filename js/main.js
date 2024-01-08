@@ -15,3 +15,16 @@ function changeImage(newSrc) {
     popup.classList.remove("open-popup");
   }
 
+
+
+  
+  const textElement = document.getElementById("changeTitle");
+
+textElement.addEventListener("mouseover", function() {
+    textElement.innerText = "BECOME A MEMBER - GET BENEFITS!";
+});
+
+textElement.addEventListener("mouseout", function() {
+    textElement.innerText = "Jewlery of Sweden";
+});
+
